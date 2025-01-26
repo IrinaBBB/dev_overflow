@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Theme } from '@/components/navigation/navbar/Theme'
+import MobileNavigation from '@/components/navigation/navbar/MobileNavigation'
 
 function Navbar(props) {
     return (
@@ -16,6 +17,7 @@ function Navbar(props) {
             <p>Global Search</p>
             <div className='flex-between gap-5'>
                 <Theme />
+                <MobileNavigation />
             </div>
         </nav>
     )
